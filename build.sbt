@@ -4,10 +4,11 @@ organization := "com.oomatomo"
 
 version := "0.0.1"
 
-scalaVersion := "2.11.2"
+scalaVersion := "2.11.7"
 
 libraryDependencies ++= Seq(
   "com.twitter" %% "finagle-http" % "6.35.0",
+  "com.twitter" %% "finagle-redis" % "6.35.0",
   "org.specs2" %% "specs2" % "2.4" % "test"
 )
 
